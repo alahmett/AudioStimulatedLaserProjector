@@ -58,9 +58,7 @@ void loop()
 if(state.length() <= 5 && state != "STAR"){  //if user do not write STAR and write a string, then draw
   draw_string(state, 1, 1, 1);
 }
-/*else if(state.length() > 5){
-  marquee(state,5);
-}*/
+
 else if(state.length() <= 5 && state == "STAR"){//if the user write STAR, then draw a Star
 star();
 }
